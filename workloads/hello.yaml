@@ -17,3 +17,5 @@ spec:
       containers:
       - name: hello
         image: linuxacademycontent/gitops:hellov1.0
+annotations:
+    fluxcd.io/automated: 'true'
